@@ -1,0 +1,20 @@
+2021-02-14 10:18:54,432  INFO 5484 --- [main] c.s.c.CrazySaylaughApplication           : Starting CrazySaylaughApplication on saylaughs with PID 5484 (E:\crazy-saylaugh\target\classes started by saylaugh in E:\crazy-saylaugh)
+2021-02-14 10:18:54,435  INFO 5484 --- [main] c.s.c.CrazySaylaughApplication           : The following profiles are active: dev
+2021-02-14 10:18:55,433  INFO 5484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-14 10:18:55,436  INFO 5484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-14 10:18:55,468  INFO 5484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 0 JDBC repository interfaces.
+2021-02-14 10:18:55,483  INFO 5484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-14 10:18:55,485  INFO 5484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-14 10:18:55,499  INFO 5484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2021-02-14 10:18:56,152  INFO 5484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-02-14 10:18:56,162  INFO 5484 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-14 10:18:56,162  INFO 5484 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 10:18:56,315  INFO 5484 --- [main] o.a.c.c.C.[.[localhost].[/saylaugh]      : Initializing Spring embedded WebApplicationContext
+2021-02-14 10:18:56,315  INFO 5484 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1811 ms
+2021-02-14 10:18:58,095  INFO 5484 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-02-14 10:18:58,342  WARN 5484 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-02-14 10:18:58,542  INFO 5484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/saylaugh'
+2021-02-14 10:18:58,575  INFO 5484 --- [main] c.s.c.CrazySaylaughApplication           : Started CrazySaylaughApplication in 4.79 seconds (JVM running for 6.129)
+2021-02-14 10:19:12,934  INFO 5484 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/saylaugh]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-14 10:19:12,934  INFO 5484 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-14 10:19:12,948  INFO 5484 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms

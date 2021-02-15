@@ -1,0 +1,11 @@
+ <!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.saylaughs.crazysaylaugh.Dao.TestMapper">
+
+<!-- <insert id="add" parameterType="test">-->
+<!--      insert into say_test(say_name) values(#{say_name})-->
+<!-- </insert>-->
+
+
+</mapper>

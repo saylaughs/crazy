@@ -1,0 +1,84 @@
+2021-02-15 08:04:26,671  INFO 7908 --- [main] c.s.c.CrazySaylaughApplication           : Starting CrazySaylaughApplication on saylaughs with PID 7908 (E:\crazy-saylaugh\target\classes started by saylaugh in E:\crazy-saylaugh)
+2021-02-15 08:04:26,677  INFO 7908 --- [main] c.s.c.CrazySaylaughApplication           : The following profiles are active: dev
+2021-02-15 08:04:27,585  INFO 7908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-15 08:04:27,587  INFO 7908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-15 08:04:27,627  INFO 7908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 0 JDBC repository interfaces.
+2021-02-15 08:04:27,668  INFO 7908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-15 08:04:27,670  INFO 7908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-15 08:04:27,699  INFO 7908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2021-02-15 08:04:28,712  INFO 7908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-02-15 08:04:28,731  INFO 7908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-15 08:04:28,732  INFO 7908 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-15 08:04:28,973  INFO 7908 --- [main] o.a.c.c.C.[.[localhost].[/saylaugh]      : Initializing Spring embedded WebApplicationContext
+2021-02-15 08:04:28,973  INFO 7908 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2209 ms
+2021-02-15 08:04:31,434  INFO 7908 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-02-15 08:04:31,789  WARN 7908 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-02-15 08:04:31,903  INFO 7908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/saylaugh'
+2021-02-15 08:04:31,919  INFO 7908 --- [main] c.s.c.CrazySaylaughApplication           : Started CrazySaylaughApplication in 5.922 seconds (JVM running for 7.978)
+2021-02-15 08:04:46,808  INFO 7908 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/saylaugh]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-15 08:04:46,809  INFO 7908 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-15 08:04:46,822  INFO 7908 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2021-02-15 08:18:18,803  INFO 13904 --- [main] c.s.c.CrazySaylaughApplication           : Starting CrazySaylaughApplication on saylaughs with PID 13904 (E:\crazy-saylaugh\target\classes started by saylaugh in E:\crazy-saylaugh)
+2021-02-15 08:18:18,806  INFO 13904 --- [main] c.s.c.CrazySaylaughApplication           : The following profiles are active: dev
+2021-02-15 08:18:19,792  INFO 13904 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-15 08:18:19,792  INFO 13904 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-15 08:18:19,827  INFO 13904 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27ms. Found 0 JDBC repository interfaces.
+2021-02-15 08:18:19,842  INFO 13904 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-15 08:18:19,844  INFO 13904 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-15 08:18:19,864  INFO 13904 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2021-02-15 08:18:20,460  INFO 13904 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-02-15 08:18:20,473  INFO 13904 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-15 08:18:20,473  INFO 13904 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-15 08:18:20,633  INFO 13904 --- [main] o.a.c.c.C.[.[localhost].[/saylaugh]      : Initializing Spring embedded WebApplicationContext
+2021-02-15 08:18:20,633  INFO 13904 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1739 ms
+2021-02-15 08:18:22,520  INFO 13904 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-02-15 08:18:22,885  WARN 13904 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-02-15 08:18:22,963  INFO 13904 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/saylaugh'
+2021-02-15 08:18:22,976  INFO 13904 --- [main] c.s.c.CrazySaylaughApplication           : Started CrazySaylaughApplication in 4.895 seconds (JVM running for 6.6)
+2021-02-15 08:18:23,034  INFO 13904 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/saylaugh]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-15 08:18:23,035  INFO 13904 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-15 08:18:23,042  INFO 13904 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2021-02-15 08:52:41,807  INFO 13904 --- [lettuce-nioEventLoop-4-1] io.lettuce.core.protocol.CommandHandler  : null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.buffer.WrappedByteBuf.writeBytes(WrappedByteBuf.java:821)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-02-15 08:52:42,085  INFO 13904 --- [lettuce-eventExecutorLoop-1-6] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was /192.168.70.13:6379
+2021-02-15 09:51:29,979  WARN 13904 --- [lettuce-nioEventLoop-4-2] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [192.168.70.13:6379]: Reconnection attempt exceeded timeout of 60 SECONDS 
+2021-02-15 09:51:30,120  INFO 13904 --- [lettuce-eventExecutorLoop-1-8] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was 192.168.70.13:6379
+2021-02-15 09:51:30,268  WARN 13904 --- [lettuce-nioEventLoop-4-3] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [192.168.70.13:6379]: No route to host: no further information: /192.168.70.13:6379
+
+io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /192.168.70.13:6379
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-02-15 09:51:42,963  INFO 13904 --- [lettuce-eventExecutorLoop-1-1] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was 192.168.70.13:6379
+2021-02-15 09:51:48,539  INFO 13904 --- [lettuce-nioEventLoop-4-4] i.l.core.protocol.ReconnectionHandler    : Reconnected to 192.168.70.13:6379

@@ -1,0 +1,81 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.saylaughs.crazysaylaugh.Dao.ArticleMapper">
+    <select id="allArticle" resultMap="articles" parameterType="say_article">
+        select * from say_article a inner join say_user b on a.user_id = b.user_id
+        <where>
+            <if test="say_article.a_id != null">
+                AND a_id=#{say_article.a_id}
+            </if>
+        </where>
+    </select>
+    
+    <update id="updLike">
+         update say_article a set a.favour=(select count(1) from say_like b where a.a_id=b.a_id)
+    </update>
+    
+        <resultMap id="articles" type="Say_Article" autoMapping="true">
+        <id  column="a_id"  property="a_id"/>
+        <association property="say_user" javaType="Say_User"  >
+            <id property="user_id" column="user_id"/>
+            <result property="userName" column="userName"/>
+            <result property="password" column="password"/>
+            <result property="email" column="email"/>
+            <result property="sex" column="sex"/>
+            <result property="personalized" column="personalized"/>
+            <result property="portrait" column="portrait"/>
+            <result property="region" column="region"/>
+            <result property="state" column="state"/>
+            <result property="role_id" column="role_id"/>
+            <result property="permission" column="permission"/>
+            <result property="category_id" column="category_id"/>
+        </association>
+    </resultMap>
+
+    <select id="selectArticle" resultMap="articles" parameterType="String">
+        select * from say_article  a inner join say_user b on a.user_id = b.user_id  where body like concat('%',#{queryText},'%')
+    </select>
+
+    <insert id="addArticle" parameterType="say_article">
+        insert into say_article(user_id,title,content,body,send_time,favour,state,readSum,cover_photo,category_id11,
+        category2_id,category3_id,a_text
+        values(#{say_article.user_id},
+        #{say_article.title},#{say_article.content},#{say_article.send_time},
+        #{say_article.favour},#{say_article.state},#{say_article.readSum},
+        #{say_article.cover_photo},#{say_article.category_id11},#{say_article.category2_id},
+        #{say_article.category3_id},#{say_article.a_text});
+    </insert>
+
+
+    <select id="getArticleByCategoryId" resultMap="articles" parameterType="int">
+        select * from say_article a inner join say_user b on a.user_id = b.user_id where category_id1=#{id} or category_id2=#{id}
+    </select>
+
+    <select id="getRecommendByCategory" resultMap="articles" parameterType="int">
+        select * from say_article where category_id1 in(select c_id from say_category where c_parent=(SELECT c_parent
+         FROM SAY_CATEGORY where c_id=(SELECT category_id FROM SAY_USER WHERE USER_ID=2 )))
+    </select>
+
+    <select id="getOrderByArticle" resultMap="articles">
+        select * from say_article  a inner join say_user b on a.user_id = b.user_id order by readSum desc LIMIT 0,6
+    </select>
+
+    <select id="getTimeArticle" resultMap="articles">
+        select * from say_article  a inner join say_user b on a.user_id = b.user_id order by send_time desc LIMIT 0,6
+    </select>
+
+    <select id="getOwnerArticle" resultMap="articles" parameterType="int">
+        select * from say_article a inner join say_user b on a.user_id = b.user_id
+        <where>
+            <if test="userId != null">
+                and user_id=#{user_Id}
+            </if>
+        </where>
+        order by send_time desc LIMIT 0,6
+
+    </select>
+
+
+</mapper>

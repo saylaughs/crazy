@@ -1,0 +1,21 @@
+ <!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.saylaughs.crazysaylaugh.Dao.UserMapper">
+    <select id="login" resultType="say_user">
+        select * from say_user where email=#{email} and password=#{password}
+    </select>
+
+    <select id="getAllUser" resultType="say_user">
+        select * from say_user
+    </select>
+
+    <insert id="register" parameterType="say_user">
+        insert into say_user(userName, password,email,sex,personalized,portrait,region,state,role_id,permission,category_id)
+        VALUES (#{say_user.userName},#{say_user.password},
+        #{say_user.email},#{say_user.sex},#{say_user.personalized},
+        #{say_user.portrait},#{say_user.region},#{say_user.state},
+        #{say_user.role_id},#{say_user.permission},#{say_user.category_id});
+    </insert>
+
+</mapper>
