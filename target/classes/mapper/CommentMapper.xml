@@ -1,0 +1,54 @@
+ <!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.saylaughs.crazysaylaugh.Dao.CommentMapper">
+
+    <select id="getAllForArticle" parameterType="int" resultMap="user">
+        select * from say_comment a left join say_user b on a.user_id= b. user_id where a_id=#{aId};
+    </select>
+
+<!--    <insert id="addComment" parameterType="say_comment">-->
+<!--        INSERT INTO say_comment(`a_id`, `user_id`, `c_datetime`, `c_content`, `like`, `top`)-->
+<!--        VALUES (#{a_id},#{user_id},#{c_datetime},#{c_content},#{like},#{top});-->
+<!--    </insert>-->
+
+    <resultMap id="user" type="say_comment" autoMapping="true">
+        <id property="c_id" column="c_id"/>
+        <association property="user" javaType="Say_User" >
+            <id property="user_id" column="user_id"/>
+            <result property="userName" column="userName"/>
+            <result property="password" column="password"/>
+            <result property="email" column="email"/>
+            <result property="sex" column="sex"/>
+            <result property="personalized" column="personalized"/>
+            <result property="portrait" column="portrait"/>
+            <result property="region" column="region"/>
+            <result property="state" column="state"/>
+            <result property="role_id" column="role_id"/>
+            <result property="permission" column="permission"/>
+            <result property="category_id" column="category_id"/>
+        </association>
+    </resultMap>
+
+
+    <update id="updateByCId" parameterType="int" >
+        UPDATE say_comment set c_content='该评论已删除。',isdel=1 where c_id=#{c_id};
+    </update>
+
+    <delete id="delByCId" parameterType="int" >
+       delete from say_comment where c_id=#{c_id};
+    </delete>
+
+    <update id="addLike" >
+        <choose>
+            <when test='str=="Y"'>
+                update say_comment a set a.like=a.like+1 where c_id=${c_id}
+            </when>
+            <otherwise>
+                update say_comment a set a.like=a.like-1 where a.c_id=${c_id}
+            </otherwise>
+        </choose>
+    </update>
+
+
+</mapper>

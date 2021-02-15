@@ -1,0 +1,177 @@
+.ower-info>div {
+	/*border:1px solid black;*/
+	/*height: 500px;*/
+}
+
+.ower-header {
+	height: 120px;
+}
+
+.am-circle {
+	width: 98px;
+	height: 95px;
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.hwl-attention {
+	margin-right: 20px;
+}
+
+.hwl-friend {
+	margin-top: 10px;
+	height: 50px;
+}
+
+.hwl-attention i,
+.hwl-vermicelli i {
+	color: blueviolet;
+	cursor: pointer;
+}
+
+.hwl-attention i:hover,
+.hwl-vermicelli i:hover {
+	color: darkviolet;
+}
+
+.hwl-menu {
+	margin-top: 15px;
+	border-top: 1px solid rgb(255, 255, 255, 0.1);
+}
+
+.menu-ul {
+	margin-top: 10px;
+	list-style: none;
+}
+
+.menu-ul li {
+	border-radius: 3px;
+	text-align: center;
+	margin-right: 35px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	cursor: pointer;
+	transition: all 0.1s ease-in-out;
+}
+
+.menu-ul li:nth-of-type(1):hover {
+	background-color: rgb(255, 0, 255, 0.1);
+}
+
+.menu-ul li:nth-of-type(2):hover {
+	background-color: rgb(255, 0, 255, 0.18);
+}
+
+.menu-ul li:nth-of-type(3):hover {
+	background-color: rgb(255, 0, 255, 0.28);
+}
+
+.menu-ul li:nth-of-type(4):hover {
+	background-color: rgb(255, 0, 255, 0.37);
+}
+
+.menu-ul li:nth-of-type(5):hover {
+	background-color: rgb(255, 0, 255, 0.35);
+}
+
+.menu-ul li:nth-of-type(6):hover {
+	background-color: rgb(255, 0, 255, 0.3);
+}
+
+.menu-ul li:nth-of-type(7):hover {
+	background-color: rgb(255, 0, 255, 0.23);
+}
+
+.menu-ul li:nth-of-type(8):hover {
+	background-color: rgb(255, 0, 255, 0.12);
+}
+.ower-all *{
+	padding: 0px;
+	margin: 0px;
+	vertical-align: middle;
+	color: black;
+}
+.ower-all {
+	height: 196px;
+	border-bottom: 1px solid rgb(255, 255, 255, 0.1);
+	text-align: left;
+}
+
+.ower-all>div {
+	margin-top: 25px;
+	display: inline-block;
+	text-align: left;
+	height: 34px;
+	width: 410px;
+	/*border:1px solid black;*/
+}
+.ower-all label{
+	margin-left: 10px;
+	font-weight: 400;
+	margin-right:5px;
+}
+.ower-all>div span{
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	/*border:1px solid black;*/
+	color: white;
+}
+.ower-all>div input[type='text']{
+	background: transparent!important;
+	transition: all 0.5s ease-in-out;
+	width: 250px;
+	height: 30px;
+}
+.ower-all *,select,option{
+	background-color: transparent!important;
+	border: none;
+}
+
+.ower-type>select{
+	width: 200px;
+	border: none;
+	outline: none;
+	background: transparent!important;
+}
+select,option{
+	/*appearance:none;
+	-moz-appearance:none; 
+	-webkit-appearance:none; */
+	background:rgba(247,247,248,0.7)!important;
+	outline:none;
+	border:none;
+}
+.ower-addre select{
+	font-size: 10px;
+	width: 90px;
+	border: none;
+	outline: none;
+}
+
+.ower-all>div input[type='text']:focus{
+	border:1px solid whitesmoke;
+	width: 300px;
+}
+.item {
+	width: 240px;
+	height: 32px;
+	margin: 100px auto;
+}
+
+.filter-title {
+	outline: none;
+	border: none;
+}
+ input{
+ 	outline: none;
+ 	border: none;
+ }
+.own-content{
+	height: 500px;
+	border: 1px solid rgb(255, 255, 255, 0.2);
+	display: none;
+}

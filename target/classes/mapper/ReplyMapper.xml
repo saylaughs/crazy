@@ -1,0 +1,51 @@
+ <!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.saylaughs.crazysaylaugh.Dao.ReplyMapper">
+
+
+    <select id="getReplyForComment" parameterType="int" resultMap="user">
+        select r_id, c_id, a.user_id, reply_user_id, r_askTime, r_askContent,`like`,reply_user_name,
+        b.user_id userId,userName,password,email,sex,personalized,portrait,region,state,role_id, permission,category_id
+        from say_reply a left join say_user b on (a.user_id= b. user_id) where a.c_id=#{id}
+    </select>
+
+<!--    <insert id="addReply" parameterType="say_reply" >-->
+<!--        INSERT INTO `saylaugh`.`say_reply`-->
+<!--        (`c_id`, `user_id`, `reply_user_id`, `r_askTime`, `r_askContent`, `like`, `reply_user_name`)-->
+<!--        VALUES (#{c_id}, #{user_id}, #{reply_user_id},#{r_askTime},#{r_askContent}, #{like},#{reply_user_name});-->
+<!--    </insert>-->
+
+
+    <update id="addLike">
+        <choose>
+             <when test='str=="Y"'>
+                 update say_reply a set a.like=a.like+1 where r_id=${r_id}
+             </when>
+            <otherwise>
+                update say_reply a set a.like=a.like-1 where r_id=${r_id}
+            </otherwise>
+        </choose>
+    </update>
+
+    <resultMap id="user" type="say_reply" autoMapping="true">
+        <id property="r_id" column="r_id"/>
+        <result property="reply_user_name" column="reply_user_name"/>
+        <association property="say_user" javaType="Say_User"    >
+            <id property="user_id" column="userId"/>
+            <result property="userName" column="userName"/>
+            <result property="password" column="password"/>
+            <result property="email" column="email"/>
+            <result property="sex" column="sex"/>
+            <result property="personalized" column="personalized"/>
+            <result property="portrait" column="portrait"/>
+            <result property="region" column="region"/>
+            <result property="state" column="state"/>
+            <result property="role_id" column="role_id"/>
+            <result property="permission" column="permission"/>
+            <result property="category_id" column="category_id"/>
+        </association>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="319524e6-cce4-490f-bf95-542218857d4f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="crazy-saylaugh" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nT3EjM3nIRW5ImZuxsLPKTdnoU" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.saylaughs.crazysaylaugh.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\crazy-saylaugh\src\main\resources\static" />
+      <recent name="E:\crazy-saylaugh\src\main\resources\templates\img" />
+      <recent name="E:\crazy-saylaugh\src\main\resources\templates\js" />
+      <recent name="E:\crazy-saylaugh\src\main\resources\templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.saylaughs.crazysaylaugh.control" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\crazy-saylaugh\src\main\java\com\saylaughs\crazysaylaugh\conf" />
+      <recent name="E:\crazy-saylaugh\src\main\resources\mapper" />
+      <recent name="E:\crazy-saylaugh\src\main\resources\static\img" />
+      <recent name="E:\crazy-saylaugh\src\main\resources\static\js\lib\load" />
+      <recent name="E:\crazy-saylaugh\src\main\java\com\saylaughs\crazysaylaugh\pojo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CrazySaylaughApplication">
+    <configuration name="CrazySaylaughApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crazy-saylaugh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saylaughs.crazysaylaugh.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.saylaughs.crazysaylaugh" />
+      <option name="MAIN_CLASS_NAME" value="com.saylaughs.crazysaylaugh.CrazySaylaughApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrazySaylaughApplicationTests.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crazy-saylaugh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saylaughs.crazysaylaugh.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.saylaughs.crazysaylaugh" />
+      <option name="MAIN_CLASS_NAME" value="com.saylaughs.crazysaylaugh.CrazySaylaughApplicationTests" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrazySaylaughApplicationTests.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crazy-saylaugh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saylaughs.crazysaylaugh.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.saylaughs.crazysaylaugh" />
+      <option name="MAIN_CLASS_NAME" value="com.saylaughs.crazysaylaugh.CrazySaylaughApplicationTests" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrazySaylaughApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="crazy-saylaugh" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.saylaughs.crazysaylaugh.CrazySaylaughApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CrazySaylaughApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.CrazySaylaughApplicationTests.test3" />
+        <item itemvalue="JUnit.CrazySaylaughApplicationTests.test2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="319524e6-cce4-490f-bf95-542218857d4f" name="Default Changelist" comment="" />
+      <created>1611400143462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611400143462</updated>
+      <workItem from="1611400147786" duration="2836000" />
+      <workItem from="1611403009394" duration="34551000" />
+      <workItem from="1611557680371" duration="5078000" />
+      <workItem from="1611563156477" duration="5159000" />
+      <workItem from="1611579301092" duration="41922000" />
+      <workItem from="1611753262867" duration="29000" />
+      <workItem from="1611884771136" duration="17006000" />
+      <workItem from="1611910199634" duration="44023000" />
+      <workItem from="1612080938382" duration="37499000" />
+      <workItem from="1612357068832" duration="62085000" />
+      <workItem from="1612685604374" duration="59962000" />
+      <workItem from="1613022619020" duration="4712000" />
+      <workItem from="1613100296147" duration="5204000" />
+      <workItem from="1613131313951" duration="605000" />
+      <workItem from="1613192359888" duration="124000" />
+      <workItem from="1613192502024" duration="18000" />
+      <workItem from="1613192858976" duration="41000" />
+      <workItem from="1613192913715" duration="426000" />
+      <workItem from="1613208518288" duration="19000" />
+      <workItem from="1613208688183" duration="56000" />
+      <workItem from="1613208763977" duration="236000" />
+      <workItem from="1613209013330" duration="59000" />
+      <workItem from="1613218175065" duration="10000" />
+      <workItem from="1613218382489" duration="10000" />
+      <workItem from="1613222416338" duration="661000" />
+      <workItem from="1613264382659" duration="4123000" />
+      <workItem from="1613279894973" duration="1196000" />
+      <workItem from="1613310496356" duration="13000" />
+      <workItem from="1613318415604" duration="1289000" />
+      <workItem from="1613347807058" duration="1649000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Inspections" timestamp="1611653813410">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1611653813410" />
+    <state x="367" y="69" width="814" height="729" key="#Intentions" timestamp="1612874662719">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="367" y="69" width="814" height="729" key="#Intentions/0.0.1536.824@0.0.1536.824" timestamp="1612874662719" />
+    <state x="457" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611973897945">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="457" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1611973897945" />
+    <state x="625" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1612920129047">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="625" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1612920129047" />
+    <state x="620" y="304" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1613222724614">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="620" y="304" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1613222724614" />
+    <state x="349" y="70" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1613222721816">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="70" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1536.824@0.0.1536.824" timestamp="1613222721816" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611469386159">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1611469386159" />
+    <state width="453" height="466" key="DebuggerActiveHint" timestamp="1612480393663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="453" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1612480393663" />
+    <state x="601" y="199" key="FileChooserDialogImpl" timestamp="1613310504207">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="601" y="199" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1613310504207" />
+    <state width="1493" height="155" key="GridCell.Tab.0.bottom" timestamp="1613347774292">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="155" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613347774292" />
+    <state width="1493" height="155" key="GridCell.Tab.0.center" timestamp="1613347774292">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="155" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1613347774292" />
+    <state width="1493" height="155" key="GridCell.Tab.0.left" timestamp="1613347774291">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="155" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1613347774291" />
+    <state width="1493" height="155" key="GridCell.Tab.0.right" timestamp="1613347774292">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="155" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1613347774292" />
+    <state width="1493" height="155" key="GridCell.Tab.1.bottom" timestamp="1613347774293">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="155" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613347774293" />
+    <state width="1493" height="155" key="GridCell.Tab.1.center" timestamp="1613347774292">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="155" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1613347774292" />
+    <state width="1493" height="155" key="GridCell.Tab.1.left" timestamp="1613347774292">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="155" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1613347774292" />
+    <state width="1493" height="155" key="GridCell.Tab.1.right" timestamp="1613347774292">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="155" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1613347774292" />
+    <state width="1478" height="256" key="GridCell.Tab.2.bottom" timestamp="1613021779004">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="256" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613021779004" />
+    <state width="1478" height="256" key="GridCell.Tab.2.center" timestamp="1613021779003">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="256" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1613021779003" />
+    <state width="1478" height="256" key="GridCell.Tab.2.left" timestamp="1613021779003">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="256" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1613021779003" />
+    <state width="1478" height="256" key="GridCell.Tab.2.right" timestamp="1613021779004">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="256" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1613021779004" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1611736038450">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1611736038450" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1613347771899">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1613347771899" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1612918951559">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1612918951559" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1613347806959">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1613347806959" />
+    <state x="487" y="194" key="extract.method.dialog" timestamp="1611403636040">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="487" y="194" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1611403636040" />
+    <state x="183" y="57" key="new project wizard" timestamp="1613222428625">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="183" y="57" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1613222428625" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1612801874737">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1612801874737" />
+    <state x="418" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1612957306112">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="418" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1612957306112" />
+  </component>
+</project>

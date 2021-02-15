@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <title>系统繁忙</title>
+<!--    <link th:href="@{/static/css/index.css}" rel="stylesheet">-->
+</head>
+<body>
+<div class="body-star">
+    <div class="stars"></div>
+</div>
+<div class="container">
+<div class="container bg-tltle" th:replace="public :: bg-tltle"></div>
+<div class="container to-body" th:src="@{/index}">
+    <h3 class="h-text">系统繁忙<span th:text="${message}"></span></h3>
+</div>
+</div>
+</body>
+</html>

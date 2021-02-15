@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org" xmlns:margin-left="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hi Hi Hi</title>
+		<link rel="shortcut icon" th:href="@{/static/img/logo.ico}"/>
+	</head>
+
+	<body>
+	<div class="body-star">
+		<div class="stars"></div>
+	</div>
+		<div class="container">
+			<div class="container bg-tltle" th:fragment="bg-tltle">
+				<div class="row nav-title">
+					<div class="col-lg-3 col-sm-3 col-xs-6 col-md-6">
+						<div class="icon-title">
+							<img class="" th:src="@{/static/img/saylaugh.png}" />
+							<a class="want-dream"  th:href='@{/index.html}'>saylaugh</a><br />
+							<span class="title-text text2" th:value="${session.user}">物是人非事事休.欲语泪先流.</span>
+							<span style="display: none" class="user_id" th:value="${session.user==null?null:session.user.user_id}"
+								  th:attr="userName=${session.user==null?null:session.user.userName}"></span>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-3 col-xs-6 col-md-6 ">
+						<div class="search-div" style="line-height: 60px;">
+							<input type="text" autocomplete="off" class="form-control search-input" id="inputGroupSuccess1" aria-describedby="inputGroupSuccess1Status">
+							<button class="input-lable"><span class="glyphicon glyphicon-search "></span></button>
+							<div class="search-init">
+								<ul></ul>
+								<div class="page-init">
+									<span><a href="javascript:void(0)" class="previous">上一页</a></span><span><a href="javascript:void(0)" class="next">下一页</a><span class="currPage">1/2</span></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-lg-offset-1  col-md-6 col-xs-6 col-sm-3">
+						<div class="c">
+							<div id="QPlayer">
+								<div id="pContent">
+									<div id="player">
+										<span class="cover"></span>
+										<div class="ctrl">
+											<div class="musicTag marquee">
+												<strong>Title</strong>
+												<span> - </span>
+												<span class="artist">Artist</span>
+											</div>
+											<div class="progress-song">
+												<div class="timer left">0:00</div>
+												<div class="contr">
+													<div class="rewind icon"></div>
+													<div class="playback icon"></div>
+													<div class="fastforward icon"></div>
+												</div>
+												<div class="right">
+													<div class="liebiao icon"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<ol id="playlist"></ol>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 right-say col-md-6 col-xs-6 col-sm-3 col-lg-offset-1 menu-owner">
+						<div class="weather glyphicon glyphicon-cloud" id="weather"></div>
+						<div class="ower" th:utext="${session.user}==null?'登录/信息':'<a href=/saylaugh/owner.html?'+${session.user.user_id}+'>'+${session.user.userName}+'</a><a href=	/saylaugh/out class='+loginOut+'>退出</a>'" style="line-height: 60px;">登录/信息</div>
+						<div id="weather-v2-plugin-standard"></div>
+					</div>
+				</div>
+				<div class="top" ></div>
+				<script th:src="@{/static/js/jquery-1.9.1.min.js}"></script>
+
+				<script>
+
+					var href = $(document).attr("title");
+					if (href!="SayLaugh") {
+						$(".ower").html("<a href='/saylaugh/index'>返回主页</a>");
+					}
+
+				</script>
+
+				<script th:src="@{/static/js/lib/load/preload.min.js}"></script>
+
+				<script type="text/javascript">
+					//调用
+					$.QianLoad.PageLoading({
+						sleep: 50
+					});
+				</script>
+
+				<style>
+					.top{
+						background: url('/saylaugh/static/img/top.png') no-repeat 0px center;
+						position:fixed;_position:absolute;bottom:100px;right:30px;width:128px;height:128px;display:none;}
+				</style>
+				<script type="text/javascript">
+					$(function(){
+						$(window).scroll(function() {
+							if($(window).scrollTop() >= 100){
+								$('.top').fadeIn(300);
+							}else{
+								$('.top').fadeOut(300);
+							}
+						});
+						$('.top').click(function(){
+							$('html,body').animate({scrollTop: '0px'}, 800);});
+					});
+				</script>
+
+				<script th:src='@{/static/js/lib/overturn/js/prefixfree.min.js}'></script>
+
+				<link rel="stylesheet" th:href="@{/static/js/lib/overturn/css/default.css}" />
+
+				<link th:href="@{/static/bootstrap/css/bootstrap.min.css}" rel="stylesheet">
+				<link th:href="@{/static/css/index.css}" rel="stylesheet" />
+				<link rel="stylesheet" th:href="@{/static/css/spop.css}">
+				<link rel="stylesheet" th:href="@{/static/css/ladda-themeless.min.css}">
+				<link rel="stylesheet" th:href="@{/static/css/player.css}">
+				<link th:href="@{/static/css/animate.css}" rel="stylesheet">
+
+				<script th:src="@{/static/js/indexAction.js}"></script>
+				<script type="text/javascript" th:src="@{/static/js/index.js}"></script>
+				<script th:src="@{/static/js/lib/spop/spop.js}"></script>
+				<script th:src="@{/static/js/lib/lettering/jquery.lettering.js}"></script>
+				<script th:src="@{/static/js/lib/lettering/jquery.textillate.js}"></script>
+
+
+				<!--天气-->
+				<script src="https://apip.weatherdt.com/standard/static/js/weather-standard-common.js?v=2.0"></script>
+
+<!--				<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">-->
+				<script th:src="@{/static/js/lib/people/autoload.js}"></script>
+
+
+<!--				歌曲-->
+				<script th:src="@{/static/js/lib/player/jquery.marquee.min.js}"></script>
+				<script th:src="@{/static/js/lib/player/song.js}"></script>
+				<script th:src="@{/static/js/lib/player/player.js}"></script>
+				<script type="text/javascript" th:src="@{/static/js/lib/spop/spin.min.js}"></script>
+
+				<script type="text/javascript" th:src="@{/static/js/loadpublic.js}"></script>
+			</div>
+		</div>
+
+
+	</body>
+
+</html>
